@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – Playlist Fork</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f9fafb;
+      color: #111318;
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 48px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .logo {
+      width: 40px; height: 40px;
+      background: #22c55e;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 24px;
+    }
+    .logo svg { width: 22px; height: 22px; }
+    h1 { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
+    .subtitle { font-size: 14px; color: #6b7280; margin-bottom: 36px; }
+    h2 { font-size: 16px; font-weight: 700; margin: 28px 0 10px; color: #111318; }
+    p { font-size: 15px; color: #374151; margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { font-size: 15px; color: #374151; margin-bottom: 6px; }
+    .highlight {
+      background: #f0fdf4;
+      border-left: 3px solid #22c55e;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 20px 0;
+      font-size: 15px;
+      color: #374151;
+    }
+    .footer {
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo">
+      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 2v5.5A3.5 3.5 0 0 0 6.5 11H8" stroke="#000" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M3 2v5.5A3.5 3.5 0 0 0 6.5 11H11" stroke="#000" stroke-width="1.6" stroke-linecap="round"/>
+        <circle cx="3" cy="2" r="1.5" fill="#000"/>
+        <circle cx="11" cy="11" r="1.5" fill="#000"/>
+        <circle cx="8" cy="13" r="1.5" fill="#000"/>
+      </svg>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">Playlist Fork Chrome Extension · Last updated: June 2026</p>
+
+    <div class="highlight">
+      <strong>The short version:</strong> Playlist Fork does not collect, store, or share any of your personal data. Everything stays on your device.
+    </div>
+
+    <h2>What data we access</h2>
+    <p>Playlist Fork requests access to your Google account solely to interact with the YouTube Data API on your behalf. Specifically, the extension:</p>
+    <ul>
+      <li>Reads playlist information and video lists from YouTube</li>
+      <li>Creates new playlists in your YouTube account</li>
+      <li>Adds videos to playlists you create through the extension</li>
+    </ul>
+    <p>This access is limited to the <strong>youtube</strong> OAuth scope, which covers reading and managing your YouTube playlists only.</p>
+
+    <h2>What data we store</h2>
+    <p>Playlist Fork stores the following data <strong>locally on your device only</strong>, using Chrome's built-in storage:</p>
+    <ul>
+      <li>Your OAuth access token (temporarily, to authenticate API requests)</li>
+      <li>A history of playlists you have forked (title, video count, date)</li>
+      <li>Your preferences such as whether you have acknowledged the quota notice</li>
+    </ul>
+    <p>None of this data is ever sent to any external server. It lives only in your browser's local storage and is cleared when you sign out or uninstall the extension.</p>
+
+    <h2>What data we do not collect</h2>
+    <ul>
+      <li>We do not collect your name, email address, or any personal identifiers</li>
+      <li>We do not track your browsing activity</li>
+      <li>We do not send any data to third-party servers</li>
+      <li>We do not use analytics or advertising</li>
+      <li>We do not sell or share any data with anyone</li>
+    </ul>
+
+    <h2>Third-party services</h2>
+    <p>Playlist Fork communicates directly with Google's YouTube Data API v3 on your behalf. Your use of YouTube is subject to <a href="https://policies.google.com/privacy" style="color:#22c55e;">Google's Privacy Policy</a>. We have no control over and assume no responsibility for Google's data practices.</p>
+
+    <h2>YouTube API quota</h2>
+    <p>YouTube limits each Google account to a set number of API requests per day. Playlist Fork uses these requests only to read playlists and create copies in your account. No quota usage is attributed to us — it is consumed from your own Google account's daily allowance.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If we make material changes to this privacy policy, we will update the date at the top of this page. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>If you have any questions about this privacy policy, please open an issue on our Chrome Web Store listing or contact us directly.</p>
+
+    <div class="footer">
+      Playlist Fork is not affiliated with YouTube or Google LLC. YouTube is a trademark of Google LLC.
+    </div>
+
+  </div>
+</body>
+</html>
